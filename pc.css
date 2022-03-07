@@ -6,37 +6,39 @@ h1,h2{
 
     text-align: center;
     color: white;
+    font-size: 30px;
 }
 
-.table {
-   
-    padding: 0;
-    margin: auto;
+img {
+  border-radius: 20px;  
 }
 
-#kep {
-    border-radius: 20px;
-    max-width: 300px;
+.box {
+  width: 800px;
+  height: 700px;
+  background: #696969;
+  border-radius: 15px;
+  margin: auto;
 }
 
 .jatekkep {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    max-width: 300px;
+    max-width: 400px;
     margin: auto;
     border-radius: 20px;
-    position: absolute;
     display: block;
+    float: left;
+    padding-left: 50px;
+    padding-top: 50px;
   }
 
-  .szoveg{
-      font-family: 'Courier New', Courier, monospace;
-      font-size: small;
-      position: absolute;
+.szoveg{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
     color: white;
   }
 
 #price {
-    color: grey;
-    font-size: 22px;
-    border: solid 3px;
+    color: white;
+    font-size: 50px;
+    text-align: center;
   }
