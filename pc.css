@@ -14,19 +14,29 @@ h1,h2{
     margin: auto;
 }
 
-.keret {
+#kep {
+    border-radius: 20px;
+    max-width: 300px;
+}
+
+.jatekkep {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     max-width: 300px;
     margin: auto;
-    text-align: center;
-    font-family: arial;
-    border-radius: 25px;
-    border: 2px purple solid;
+    border-radius: 20px;
     position: absolute;
     display: block;
+  }
+
+  .szoveg{
+      font-family: 'Courier New', Courier, monospace;
+      font-size: small;
+      position: absolute;
+    color: white;
   }
 
 #price {
     color: grey;
     font-size: 22px;
+    border: solid 3px;
   }
