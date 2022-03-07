@@ -1,44 +1,38 @@
 body {
     background-image: url("img/612888-gamer-wallpaper-top-free-gamer-background.jpg");
+    
 }
 
 h1,h2{
 
     text-align: center;
     color: white;
-    font-size: 30px;
 }
 
-img {
-  border-radius: 20px;  
-}
-
-.box {
-  width: 800px;
-  height: 700px;
-  background: #696969;
-  border-radius: 15px;
-  margin: auto;
+img{
+    width: 260px;
+    border-radius: 20px;
+    border: 1px blue solid;
 }
 
 .jatekkep {
-    max-width: 400px;
+    padding-left: 30px;
+    padding-top: 25px; 
+    border: red solid;
+}
+
+.box {
+    width: 800px;
+    height: 900px;
+    background: #696969;
+    border-radius: 15px;
     margin: auto;
-    border-radius: 20px;
-    display: block;
-    float: left;
-    padding-left: 50px;
-    padding-top: 50px;
-  }
+}
 
-.szoveg{
-    font-family: 'Courier New', Courier, monospace;
-    font-size: small;
+.price {
     color: white;
-  }
-
-#price {
-    color: white;
-    font-size: 50px;
-    text-align: center;
-  }
+    font-size: 30px;
+    border: white solid;
+    margin-left: 600px;
+    max-width: 100px;
+}
